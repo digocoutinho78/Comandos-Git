@@ -48,9 +48,9 @@ Lista de Comandos Git
 | `git checkout -- [nome-arquivo.txt]` | Descarta modificações de um arquivo |
 |`git config init.defaultBranch` | Mostra a branch configurada como padrão |
 
-
-| **MERGE:** | --------- |
+| Comando | Descrição |
 | ------- | --------- |
+| **MERGE:** | --------- |
 | `git merge [nome da branch]` | Faz um merge de uma branch na branch atual |
 | `git merge [source branch] [branch alvo]` | Faz um merge de uma branch em outra branch |
 | **STASH:** | --------- |
