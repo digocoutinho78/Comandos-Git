@@ -1,6 +1,6 @@
 
 Lista de Comandos Git
-===============
+===================================================================
 
 ### Básicos
 
@@ -21,8 +21,6 @@ Lista de Comandos Git
 
 ===================================================================
 
-
-
 ### Criação de Projeto
 
 | Comando | Descrição |
@@ -30,8 +28,7 @@ Lista de Comandos Git
 | `git init` | Inicializa um repositório Git **local** |
 | `git clone ssh://git@github.com/[usuario]/[nome-repositorio].git` | Cria uma **cópia local de um repositório remoto** |
 
-
-
+===================================================================
 
 ### Branch e Merge
 
@@ -60,6 +57,8 @@ Lista de Comandos Git
 | `git stash` | Tirar o estado sujo do seu diretório de trabalho |
 | `git stash clear` | Remove todas as entradas 'stash' |
 
+===================================================================
+
 ### Compartilhamento e Atualização de Projeto
 
 | Comando | Descrição |
@@ -73,6 +72,8 @@ Lista de Comandos Git
 | `git fetch origin main` | baixa as alterações na branch main do repositorio remoto. |
 | `git remote add origin ssh://git@github.com/[usuario]/[nome-repositorio].git` | Adicionar um repositório remoto |
 | `git remote set-url origin ssh://git@github.com/[usuario]/[nome-repositorio].git` | Seta um repositório da origin branch para o SSH |
+
+===================================================================
 
 ### Inspeção & Comparação
 
