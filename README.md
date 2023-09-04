@@ -2,6 +2,9 @@
 Lista de Comandos Git
 ===================================================================
 
+*Uma lista dos meus comandos mais utilizados no Git. Fique à vontade para fazer recomendações.* 
+[@digocoutinho](https://instagram.com/digocoutinho) / [digocoutinho78](https://github.com/digocoutinho78)
+
 ### Básicos
 
 | Comando | Descrição |
@@ -79,3 +82,6 @@ Lista de Comandos Git
 | `git log` | Ver modificações |
 | `git log --summary` | **Ver modificações** (detalhadas) |
 | `git diff [branch original] [branch alvo]` | Visualizar alterações antes de mesclar |
+
+
+baseado no arquivo de joshnh 09/23.
