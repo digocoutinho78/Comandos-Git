@@ -84,4 +84,30 @@ Lista de Comandos Git
 | `git diff [branch original] [branch alvo]` | Visualizar alterações antes de mesclar |
 
 
+### Erros conhecidos:
+
+Se você receber o seguinte erro:
+
+`To https://github.com/...`
+
+ `! [rejected]    main -> main (non-fast-forward)`
+
+`error: failed to push some refs to 'https://github.com...'`
+
+`hint: Updates were rejected because the tip of your current branch is behind`   <==
+
+`hint: its remote counterpart. Integrate the remote changes (e.g.`
+
+`hint: 'git pull ...') before pushing again.`
+
+`hint: See the 'Note about fast-forwards' in 'git push --help' for details.`
+
+
+Pode significar que o repositório remoto avançou além do seu repositório local. Para resolver sincronize seu repositório local com o repositório remoto antes do push.
+Utilize o seguinte comando:
+
+`git pull --allow-unrelated-histories`
+
+depois é só realizar o push.
+
 baseado no arquivo de joshnh 09/23.
