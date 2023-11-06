@@ -12,6 +12,7 @@ Lista de Comandos Git
 | **CONFIG INICIAL:** | --------- |
 | `git config --global user.name "SeuNome"` | **Configura o usuário** |
 | `git config --global user.email "seunome@email.com"` | **Configura o email** |
+| `git branch -m master main` | **Muda o nome da branch inicial pra main** |
 | **STATUS:** | --------- |
 | `git status` | **Checa o status** |
 | **ADICIONAR:** |  |
