@@ -76,6 +76,17 @@ Lista de Comandos Git
 
 ===================================================================
 
+### Desfazendo Alterações
+
+| Comando | Descrição |
+| ------- | --------- |
+| `git reset --hard HEAD` | Desfaz todas as alterações locais e redefine o branch para o último commit local |
+| `git reset exemplo.txt` | Remove as alterações no arquivo especificado do índice (staging area), mantendo as alterações no diretório de trabalho |
+| `git checkout -- exemplo.txt` | Desfaz as alterações no arquivo, revertendo para o estado no último commit |
+| `git revert commitExemplo` | Cria um novo commit que desfaz as alterações introduzidas por um commit especificado |
+
+===================================================================
+
 ### Inspeção & Comparação
 
 | Comando | Descrição |
