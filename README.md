@@ -34,6 +34,21 @@ Lista de Comandos Git
 
 ===================================================================
 
+### Stash
+
+O git stash permite que você armazene temporariamente suas modificações locais que ainda não foram commitadas, para que você possa voltar a um estado limpo no seu projeto. Imagine a seguinte situação: você está trabalhando em uma nova funcionalidade, mas precisa interromper para corrigir um bug urgente. Com o git stash, você pode guardar suas alterações e voltar a elas mais tarde sem perder nada e o melhor: sem precisar criar um commit para isso.
+
+📚 Como usar o git stash?
+- Salvar suas alterações: Use **git stash save "Descrição opcional"** para salvar suas mudanças com uma descrição.
+- Verificar o que está stashed: Execute **git stash list** para ver todas as alterações stashed.
+- Retornar às suas alterações: Use **git stash apply** para reaplicar as últimas alterações ou **git stash pop** para reaplicar e então remover do stash.
+
+💡 Uso avançado do comando:
+- Stash específico: Use git stash apply stash@{n} para aplicar um stash específico. Conforme você for fazendo uso do git stash, as stashes vão ir sendo numeradas... 1, 2, 3 e assim por diante, esse comando permite que você aplique um stash específico, dentre a listagem, passando o número do stash que você quer aplicar.
+- Criar branches a partir de um stash: Utilize **git stash branch [nome-do-branch]** para criar um novo branch com suas alterações "stasheadas".
+
+
+
 ### Branch e Merge
 
 | Comando | Descrição |
